@@ -8,10 +8,10 @@ using namespace std;
 
 
 XTEA::XTEA(){
-	key[0]=0xFDA5;
-	key[1]=0xD54E;
-	key[2]=0xFC00;
-	key[3]=0xB55A; 
+	key[0]=0xFDA4;
+	key[1]=0xD86E;
+	key[2]=0xFC02;
+	key[3]=0xB537; 
 }
 
 void XTEA::updateKey(uint32_t *newkey){

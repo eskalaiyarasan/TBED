@@ -16,7 +16,7 @@ class XTEA
 };
 
 const int XTEA::BLOCK_SIZE=8;
-const int XTEA::VERSION=1;
+const char XTEA::VERSION=1;
 
 
 #endif
