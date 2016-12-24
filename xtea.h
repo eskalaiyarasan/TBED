@@ -4,6 +4,7 @@
 class XTEA
 {
 	static const int BLOCK_SIZE;
+	static const char VERSION;
         uint32_t key[4];
 	void xtea_encipher(unsigned int num_rounds, uint32_t v[2]);
 	void xtea_decipher(unsigned int num_rounds, uint32_t v[2]);
@@ -15,6 +16,7 @@ class XTEA
 };
 
 const int XTEA::BLOCK_SIZE=8;
+const int XTEA::VERSION=1;
 
 
 #endif
